@@ -85,6 +85,7 @@ IAM → Users → test-user → Add inline policy
 Choose JSON and paste:
 
 
+```json
 {
   "Version": "2012-10-17",
   "Statement": [
@@ -95,6 +96,8 @@ Choose JSON and paste:
     }
   ]
 }
+```
+
 
 
 save 
