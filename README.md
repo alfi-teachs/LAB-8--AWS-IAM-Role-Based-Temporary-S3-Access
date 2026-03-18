@@ -26,6 +26,12 @@ Replace with:
 
 This step is what allows the user to assume the role.
 
+
+### Trust Policy for IAM Role (Allow User to Assume Role)
+
+Replace `<ACCOUNT-ID>` and `test-user` with your actual values.
+
+```json
 {
   "Version": "2012-10-17",
   "Statement": [
@@ -38,6 +44,7 @@ This step is what allows the user to assume the role.
     }
   ]
 }
+```
 
 
 # Step 2: Create IAM User (No S3 Access)
