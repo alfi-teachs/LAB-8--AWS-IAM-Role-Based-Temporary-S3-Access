@@ -1,4 +1,4 @@
-# LAB-8--AWS-IAM-Role-Based-Temporary-S3-Access
+# LAB-8-IAM-Role-Based-Temporary-S3-Access
 Implementing Temporary Access to S3 Using STS AssumeRole
 
 # Step 1: Create IAM Role (Temporary S3 Access Role)
